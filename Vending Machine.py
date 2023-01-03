@@ -65,25 +65,19 @@ Input: """)
                 if money_in > doriwater:
                     print('Dispensing a Bag of Doritos and a Bottle of Water')
                     sukli = money_in - doriwater
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doriwater > money_in: #Goes here if user didnt put enough money in, and asks for more money
                     remain = doriwater - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 layswater = lays + water
                 if money_in > layswater:
                     print('Dispensing a Bag of Lays and a Bottle of water')
                     sukli = money_in - layswater
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layswater > money_in: 
                     remain = layswater - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - water
                 print("\nDispensing Bottle of Water")
@@ -108,25 +102,19 @@ Input: """)
                 if money_in > doripepsi:
                     print('Dispensing a Bag of Doritos and a Can of Pepsi')
                     sukli = money_in - pepsi
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doripepsi > money_in:
                     remain = doripepsi - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 layspepsi = lays + pepsi
                 if money_in > layspepsi:
                     print('Dispensing a Bag of Lays and a Can of Pepsi')
                     sukli = money_in - layspepsi
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif lays > money_in:
                     remain = layspepsi - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - pepsi
                 print("\nDispensing Can of Pepsi")
@@ -150,25 +138,19 @@ Input: """)
                 if money_in > dorisprite:
                     print('Dispensing a Bag of Doritos and a Can of Sprite')
                     sukli = money_in - dorisprite
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif dorisprite > money_in:
                     remain =  dorisprite - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 layssprite = lays + sprite
                 if money_in > layssprite:
                     print('Dispensing a Bag of Lays and a Can of Sprite')
                     sukli = money_in - layssprite
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layssprite > money_in:
                     remain = layssprite - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - sprite
                 print("\nDispensing Can of Sprite")
@@ -191,25 +173,19 @@ Input: """)
                 if money_in > doricoke:
                     print('Dispensing a Bag of Doritos and a Can of Coke')
                     sukli = money_in - doricoke
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doricoke > money_in:
                     remain =  doricoke - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 layscoke = lays + coke
                 if money_in > layscoke:
                     print('Dispensing a Bag of Lays and a Can of Coke')
                     sukli = money_in - layscoke
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layscoke > money_in:
                     remain = layscoke - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - coke         
                 print("\nDispensing Can of Coke")
@@ -232,26 +208,19 @@ Input: """)
                 if money_in > muffcoffee:
                     print('Dispensing a Muffin and a Can of Coffee')
                     sukli = money_in - muffcoffee
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif muffcoffee > money_in:
                     remain =  muffcoffee - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 croscoffee = croissant + coffee
                 if money_in > croscoffee:
                     print('Dispensing a Croissant and a Can of Coffee')
                     sukli = money_in - croscoffee
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif croscoffee > money_in:
                     remain = croscoffee - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
-
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - coke                    
                 print("\nDispensing Can of Coffee")
@@ -274,26 +243,19 @@ Input: """)
                 if money_in > turkeytea:
                     print('Dispensing a Turkey Ham Sandwich and a Can of Tea')
                     sukli = money_in - turkeytea
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif turkeytea > money_in:
                     remain =  turkeytea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
-
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "01":
                 tunatea = tuna + tea
                 if money_in > tunatea:
                     print('Dispensing a Tuna Sandwich and a Can of Tea')
                     sukli = money_in - tunatea
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif tunatea > money_in:
                     remain = tunatea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "02":
                 change = money_in - coke                    
@@ -321,52 +283,40 @@ Input: """)
                 if money_in > doriwater:
                     print('Dispensing a Bag of Doritos and a Bottle of Water')
                     sukli = money_in - doriwater
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doriwater > money_in:
                     remain = doriwater - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 doripepsi = doritos + pepsi
                 if money_in > doripepsi:
                     print('Dispensing a Bag of Doritos and a Can of Pepsi')
                     sukli = money_in - pepsi
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doripepsi > money_in:
                     remain = doripepsi - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             
             elif sug == "02":
                 dorisprite = doritos + sprite
                 if money_in > dorisprite:
                     print('Dispensing a Bag of Doritos and a Can of Sprite')
                     sukli = money_in - dorisprite
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif dorisprite > money_in:
                     remain =  dorisprite - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
                 
             elif sug == "03":
                 doricoke = doritos + coke
                 if money_in > doricoke:
                     print('Dispensing a Bag of Doritos and a Can of Coke')
                     sukli = money_in - doricoke
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif doricoke > money_in:
                     remain =  doricoke - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "04":
                 change = money_in - coke                    
@@ -392,52 +342,40 @@ Input: """)
                 if money_in > layswater:
                     print('Dispensing a Bag of Lays and a Bottle of water')
                     sukli = money_in - layswater
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layswater > money_in:
                     remain = layswater - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 layspepsi = lays + pepsi
                 if money_in > layspepsi:
                     print('Dispensing a Bag of Lays and a Can of Pepsi')
                     sukli = money_in - layspepsi
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif lays > money_in:
                     remain = layspepsi - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
             
             elif sug == "02":
                 layssprite = lays + sprite
                 if money_in > layssprite:
                     print('Dispensing a Bag of Lays and a Can of Sprite')
                     sukli = money_in - layssprite
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layssprite > money_in:
                     remain = layssprite - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
                 
             elif sug == "03":
                 layscoke = lays + coke
                 if money_in > layscoke:
                     print('Dispensing a Bag of Lays and a Can of Coke')
                     sukli = money_in - layscoke
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif layscoke > money_in:
                     remain = layscoke - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "04":
                 change = money_in - coke                    
@@ -450,7 +388,6 @@ Input: """)
     def C2():
          if money_in >= croissant:
             change = money_in - croissant
-            change = money_in - coffee
             sug = input("""We recommend these Drinks with this product, Would you like to purchase?
 00. Tea
 01. Coffee
@@ -462,26 +399,20 @@ Input: """)
                 if money_in > crosstea:
                     print('Dispensing a Croissant and a Can of Tea')
                     sukli = money_in - crosstea
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif crosstea > money_in:
                     remain = crosstea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 croscoffee = croissant + coffee
                 if money_in > croscoffee:
                     print('Dispensing a Croissant and a Can of Coffee')
                     sukli = money_in - croscoffee
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif croscoffee > money_in:
                     remain = croscoffee - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "02":
                 change = money_in - croissant                 
@@ -505,26 +436,20 @@ Input: """)
                 if money_in > mufftea:
                     print('Dispensing a Muffin and a Can of Tea')
                     sukli = money_in - muffin
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif mufftea > money_in:
                     remain = mufftea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 muffcoffee = muffin + coffee
                 if money_in > muffcoffee:
                     print('Dispensing a Muffin and a Can of Coffee')
                     sukli = money_in - muffcoffee
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif muffcoffee > money_in:
                     remain = muffcoffee - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "02":
                 change = money_in - muffin                
@@ -548,26 +473,20 @@ Input: """)
                 if money_in > turtea:
                     print('Dispensing a Turkey Ham Sandwich and a Can of Tea')
                     sukli = money_in - turkey
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif turtea > money_in:
                     remain = turtea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 turwater = turkey + water
                 if money_in > turwater:
                     print('Dispensing a Turkey Ham Sandwich and a Bottle of Water')
                     sukli = money_in - turtea
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif turtea > money_in:
                     remain = turtea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "02":
                 change = money_in - turkey                
@@ -591,27 +510,20 @@ Input: """)
                 if money_in > tunatea:
                     print('Dispensing a Tuna Sandwich and a Can of Tea')
                     sukli = money_in - tuna
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif tunatea > money_in:
                     remain = tunatea - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
+                    print('\nInsufficient amount. Amount Pending', remain)
 
             elif sug == "01":
                 tunawater = tuna + water
                 if money_in > tunawater:
                     print('Dispensing a Tuna Sandwich and a Bottle of Water')
                     sukli = money_in - tunatea
-                    print(sukli)
+                    print('Your change is', sukli)
                 elif tunawater > money_in:
                     remain = tunawater - money_in 
-                    print('\nAmount pending', remain)
-                    extra_money = int(input('Insert pending money: '))
-                    sukli = extra_money - remain
-                    print('Your change is: '+ str(sukli))
-
+                    print('\nInsufficient amount. Amount Pending', remain)
             elif sug == "02":
                 change = money_in - tuna                
                 print("\nDispensing a Tuna Sandwich")
